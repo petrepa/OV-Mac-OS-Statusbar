@@ -8,10 +8,12 @@ OPTIONS = {
         'LSUIElement': True,
     },
     'packages': ['rumps'],
+    'iconfile':'images/app_icon.icns',
 }
 
 setup(
     app=APP,
+    name='OV Door',
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
     setup_requires=['py2app'],
