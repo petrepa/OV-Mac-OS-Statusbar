@@ -2,9 +2,9 @@ import rumps
 import datetime
 from door import door_status
 
-class AwesomeStatusBarApp(rumps.App):
+class OV_StatusBarApp(rumps.App):
     def __init__(self):
-        super(AwesomeStatusBarApp, self).__init__("Awesome App")
+        super(OV_StatusBarApp, self).__init__("OV Door Status")
         self.icon = 'images/help-circle-outline.png'
         self.menu.add(rumps.MenuItem(title='Status'))
         self.menu.add(rumps.separator)
@@ -20,4 +20,4 @@ class AwesomeStatusBarApp(rumps.App):
             self.icon = 'images/door-closed.png'
     
 if __name__ == "__main__":
-    AwesomeStatusBarApp().run()
+    OV_StatusBarApp().run()
