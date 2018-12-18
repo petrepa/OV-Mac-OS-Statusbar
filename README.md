@@ -43,7 +43,7 @@ For å få den til å bli ein app du berre kan trykke i gang kan du bruke [py2ap
 
 Køyr denne kommandoen:
 ```
-$ python setuo.py py2app
+$ python setup.py py2app
 ```
 
 Etter det vil det bli laga ei mappe kalla *dist* med ein app du kan opne vanleg. Vidare kan du kopiere appen til programmappa di og starte den som eit vanleg program.
