@@ -45,7 +45,7 @@ Køyr denne kommandoen:
 $ python setuo.py py2app
 ```
 
-Etter det vil det bli laga ei mappe kalla *dist* med ein app du kan opne vanleg.
+Etter det vil det bli laga ei mappe kalla *dist* med ein app du kan opne vanleg. Vidare kan du kopiere appen til programmappa di og starte den som eit vanleg program.
 
 ## Merk
 Appen har enno ikkje blitt testa når OV faktisk har stengde dører endå, då OV ikkje har stengt dørene før publisering av appen. This can all be a bløff.
