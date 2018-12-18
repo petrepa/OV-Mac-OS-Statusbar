@@ -19,7 +19,8 @@ $ git clone https://github.com/petrepa/OV-Mac-OS-Statusbar.git
 ### Lag virtuelt miljø
 Sett opp det vituelle miljøet:
 ```
-$ pip3 install virtualenv   #Køyr denne om du ikkje allereie har virtualenv
+# Køyr denne om du ikkje allereie har virtualenv
+$ pip3 install virtualenv
 $ virtualenv -p python3 [namnet_du_vil_ha_på_miljøet]
 $ source [namnet_du_vil_ha_på_miljøet]/bin/activate
 ```
